@@ -1,9 +1,9 @@
 $(call inherit-product, device/lge/d850/full_d850.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+$(call inherit-product, vendor/cos/common.mk)
 
-PRODUCT_NAME := lineage_d850
+PRODUCT_NAME := cos_d850
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_DEVICE="g3" \
