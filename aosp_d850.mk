@@ -3,7 +3,7 @@ $(call inherit-product, device/lge/d850/full_d850.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/aosip/config/common_full_phone.mk)
 
-PRODUCT_NAME := aosip_d850
+PRODUCT_NAME := aosp_d850
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_DEVICE="g3" \
