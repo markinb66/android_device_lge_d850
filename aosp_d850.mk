@@ -1,7 +1,7 @@
 $(call inherit-product, device/lge/d850/full_d850.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/aosip/common.mk)
+$(call inherit-product, vendor/aosp/common.mk)
 
 PRODUCT_NAME := aosp_d850
 
