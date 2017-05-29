@@ -36,10 +36,6 @@ PRODUCT_PACKAGES += \
     init.galbi.bt.sh \
     init.galbi.bt_vendor.rc
 
-# Lib for Bluetooth
-PRODUCT_COPY_FILES += \
-    device/lge/d850/bluetooth/libbt-vendor.so:system/vendor/lib/libbt-vendor.so
-
 # GPS
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/gps.conf:system/etc/gps.conf
