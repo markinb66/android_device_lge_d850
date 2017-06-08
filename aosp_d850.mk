@@ -2,7 +2,7 @@ $(call inherit-product, device/lge/d850/full_d850.mk)
 
 
 PRODUCT_DEVICE := d850
-PRODUCT_NAME := aosp_d850
+PRODUCT_NAME := d850
 PRODUCT_BRAND := lge
 PRODUCT_MODEL := LG-D850
 PRODUCT_MANUFACTURER := LGE
